@@ -585,32 +585,32 @@
 // console.log(total)
 
 //Min and Max value using array
-const temperature = [3,-2,-1,'error',14,15,19,56,8,45]
-const maxValue = function (temps){
-   let max = temps[0]
-   let min = temps[0]
+// const temperature = [3,-2,-1,'error',14,15,19,56,8,45]
+// const maxValue = function (temps){
+//    let max = temps[0]
+//    let min = temps[0]
 
-   for(i = 0; i < temps.length; i++ ){
+//    for(i = 0; i < temps.length; i++ ){
 
-      const curTemp = temps[i]
+//       const curTemp = temps[i]
 
-      if (typeof curTemp !== 'number') continue;
+//       if (typeof curTemp !== 'number') continue;
 
-      if (curTemp > max){
-         max = curTemp
-      }
-      if (curTemp < min){
-         min = curTemp
-      }
-   }
-   console.log(max,min)
+//       if (curTemp > max){
+//          max = curTemp
+//       }
+//       if (curTemp < min){
+//          min = curTemp
+//       }
+//    }
+//    console.log(max,min)
 
-}
+// }
 
-maxValue([3,7,4,2,88,65,9,33])
-maxValue(temperature)
+// maxValue([3,7,4,2,88,65,9,33])
+// maxValue(temperature)
 
-const array1 = [1,3,5,7,9]
-const array2 = [2,4,6,8,10]
-const array3 = array1.concat(array2)
-console.log(array3)
+// const array1 = [1,3,5,7,9]
+// const array2 = [2,4,6,8,10]
+// const array3 = array1.concat(array2)
+// console.log(array3)
